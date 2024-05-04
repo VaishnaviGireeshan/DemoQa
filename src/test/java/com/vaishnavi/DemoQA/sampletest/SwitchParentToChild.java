@@ -31,7 +31,7 @@ public class SwitchParentToChild {
 		String parentWindow = wd.getWindowHandle();
 		WebElement newTabBtn = wait.until(ExpectedConditions.elementToBeClickable(By.id("tabButton")));
 		newTabBtn.click();
-		// Find all the handles associatd with the webdriver instance
+		// Find all the handles associated with the webdriver instance
 		Set<String> allHandles = wd.getWindowHandles();
 
 		for (String handle : allHandles) {
@@ -41,8 +41,7 @@ public class SwitchParentToChild {
 		}
 
 		WebElement text = wd.findElement(By.id("sampleHeading"));
-		System.out.println(text.getText()+"hellolllll");
-		System.out.println(text.getText()+"hiii");
+		System.out.println(text.getText()+" Working fine");
 
 		// Switch to parent window
 		wd.switchTo().window(parentWindow);

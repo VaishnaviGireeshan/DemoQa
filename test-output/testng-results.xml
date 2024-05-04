@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-02T20:07:08Z" name="Suite" finished-at="2024-05-02T20:07:24Z" duration-ms="15524">
+  <suite started-at="2024-05-04T01:43:38Z" name="Default suite" finished-at="2024-05-04T01:43:47Z" duration-ms="8966">
     <groups>
     </groups>
-    <test started-at="2024-05-02T20:07:08Z" name="Test" finished-at="2024-05-02T20:07:24Z" duration-ms="15524">
+    <test started-at="2024-05-04T01:43:38Z" name="Default test" finished-at="2024-05-04T01:43:47Z" duration-ms="8966">
       <class name="com.vaishnavi.DemoQA.sampletest.SwitchParentToChild">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.vaishnavi.DemoQA.sampletest.SwitchParentToChild@5ef5c734]" started-at="2024-05-02T20:07:08Z" name="setUp" finished-at="2024-05-02T20:07:23Z" duration-ms="14348" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.vaishnavi.DemoQA.sampletest.SwitchParentToChild@5ef5c734]" started-at="2024-05-04T01:43:38Z" name="setUp" finished-at="2024-05-04T01:43:46Z" duration-ms="7794" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="tabs()[pri:0, instance:com.vaishnavi.DemoQA.sampletest.SwitchParentToChild@5ef5c734]" started-at="2024-05-02T20:07:23Z" name="tabs" finished-at="2024-05-02T20:07:23Z" duration-ms="789" status="PASS">
+        <test-method signature="tabs()[pri:0, instance:com.vaishnavi.DemoQA.sampletest.SwitchParentToChild@5ef5c734]" started-at="2024-05-04T01:43:46Z" name="tabs" finished-at="2024-05-04T01:43:47Z" duration-ms="627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tabs -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vaishnavi.DemoQA.sampletest.SwitchParentToChild@5ef5c734]" started-at="2024-05-02T20:07:23Z" name="tearDown" finished-at="2024-05-02T20:07:24Z" duration-ms="360" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vaishnavi.DemoQA.sampletest.SwitchParentToChild@5ef5c734]" started-at="2024-05-04T01:43:47Z" name="tearDown" finished-at="2024-05-04T01:43:47Z" duration-ms="518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.vaishnavi.DemoQA.sampletest.SwitchParentToChild -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
